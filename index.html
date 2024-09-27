@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type=text]{
+            border: 3px solid green
+        }
+        input[type=password]{
+            border: 3px solid black
+        }
+        ul>li{
+            color: rgb(38, 7, 219);
+        }
+        p+p{
+            color: yellow;
+        }
+        a:hover{
+            color: rgba(225, 34, 20, 0.667);
+        }
+        li:nth-child(3){
+             color: rgb(188, 29, 29);
+             font-size: 40px;
+        }
+        div:not(#Joseph2){
+            border: 5px dashed rgb(77, 24, 210)
+        }
+        .no1::before{
+            content:"Name:"
+        }
+        .no2::after{
+            content:" Joseph:"
+        } 
+        .no3::first-letter{
+            color: blue;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <input type="text" placeholder="Email address"><br>
+    <input type="password" placeholder="password">
+    <ul>
+        <li>City</li>
+        <li>School</li>
+    </ul>
+    
+    <h1>Title</h1>
+    <p>I'm Joseph by name</p>
+    <p>This is a paragraph</p>
+    
+    <a href="#">Joseph, that's my name</a>
+    
+    <ul>
+        <li>Home</li>
+        <li>School</li>
+        <li>About</li>
+    </ul>
+    
+    <div id="Joseph1">My name is Joeboy</div>
+    <div id="Joseph2">my name is Joseph</div>
+    
+    <h3 class="no1">My name is Joseph</h3>
+   <h3 class="no2">My surname is Festus</h3>
+   <h3 class="no3">My other name is Abayomi</h3>
+</body>
+</html>
